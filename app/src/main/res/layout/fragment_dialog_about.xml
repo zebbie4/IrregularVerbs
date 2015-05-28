@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vi_color_about_fragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/iv_splash_title_padding">
+
+        <TextView
+            android:id="@+id/vi_dialog_label_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iv_splash_irregular"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iv_splash_title_text_size" />
+
+        <TextView
+            android:id="@+id/vi_dialog_label_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="@string/iv_splash_verbs"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/iv_splash_title_text_size" />
+
+        <TextView
+            android:id="@+id/vi_dialog_label_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/iv_splash_demo"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iv_splash_demo_text_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/iv_splash_copyright_padding"
+        android:gravity="center"
+        android:text="@string/iv_splash_copyright"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

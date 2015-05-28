@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- General use -->
+    <string name="iv_gen_app_name_main">Irregular Verbs</string>
+    <string name="iv_gen_app_name_norwegian">Norwegian Irregular Verbs</string>
+    <string name="iv_gen_list_empty">The irregular verb list is empty.</string>
+    <string name="iv_gen_action_about">About</string>
+
+    <!-- Splash screen -->
+    <string name="iv_splash_irregular">Irregular</string>
+    <string name="iv_splash_verbs">Verbs</string>
+    <string name="iv_splash_demo">DEMO application</string>
+    <string name="iv_splash_copyright">Copyright &#169; 2015 Zbigniew Choinski</string>
+    <string name="iv_splash_loading">Loading, please wait...</string>
+
+    <!-- Detail screen -->
+    <string name="iv_detail_nor_label">Norwegian Irregular Verb</string>
+    <string name="iv_detail_nor_meaning">Meaning</string>
+    <string name="iv_detail_nor_infinitive">Infinitive</string>
+    <string name="iv_detail_nor_preateritum">Preateritum</string>
+    <string name="iv_detail_nor_participle">Participle</string>
+
+    <!-- Auxiliary strings -->
+    <string name="iv_aux_database_name">IrregularVerbs.db</string>
+    <string name="iv_aux_shared_pref">choinski.zbigniew.irregularverbs.SP_IRREG_VERB</string>
+    <string name="iv_aux_launch_status">INITIAL_LAUNCH</string>
+    <string name="iv_aux_font_mans_greback">fonts/mans_greback.ttf</string>
+
+</resources>

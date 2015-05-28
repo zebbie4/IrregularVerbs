@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="vi_color_about_fragment" type="color">#FF444444</item>
+    <item name="vi_color_red" type="color">#FFFF0000</item>
+    <item name="vi_color_red_dark" type="color">#FF9B0000</item>
+    <item name="vi_color_transparent" type="color">#88000000</item>
+
+</resources>

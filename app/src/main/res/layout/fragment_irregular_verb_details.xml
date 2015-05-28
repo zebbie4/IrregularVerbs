@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:contentDescription="@null"
+    android:divider="?android:listDivider"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/iv_details_layout_margin"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="@dimen/iv_details_layout_margin_image"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/norway_flag_medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/vi_color_transparent"
+            android:gravity="center"
+            android:padding="@dimen/iv_details_text_size_padding"
+            android:text="@string/iv_detail_nor_label"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/iv_details_text_size_main" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/irregular_verbs_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_details"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/irregular_verbs_details_meaning"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/iv_details_layout_margin"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            android:text="@string/iv_detail_nor_meaning"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iv_details_text_size_header"
+            android:textStyle="bold|italic" />
+
+        <TableLayout
+            android:id="@+id/irregular_verbs_details_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/iv_details_layout_margin_table"
+            android:layout_weight="3"
+            android:gravity="center_vertical">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/iv_detail_nor_infinitive"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/iv_details_text_size_sub" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/iv_detail_nor_preateritum"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/iv_details_text_size_sub" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/iv_detail_nor_participle"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/iv_details_text_size_sub" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/irregular_verbs_details_infinitive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/iv_detail_nor_infinitive"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/iv_details_text_size_main" />
+
+                <TextView
+                    android:id="@+id/irregular_verbs_details_preateritum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/iv_detail_nor_preateritum"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/iv_details_text_size_main" />
+
+                <TextView
+                    android:id="@+id/irregular_verbs_details_participle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/iv_detail_nor_participle"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/iv_details_text_size_main" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

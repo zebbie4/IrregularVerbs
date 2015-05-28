@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Splash screen -->
+    <dimen name="iv_splash_title_text_size">42sp</dimen>
+    <dimen name="iv_splash_demo_text_size">12sp</dimen>
+    <dimen name="iv_splash_title_padding">50dp</dimen>
+    <dimen name="iv_splash_demo_padding">5dp</dimen>
+    <dimen name="iv_splash_copyright_padding">20dp</dimen>
+
+    <!-- Irregular verb -->
+    <dimen name="iv_irregular_layout_size">72dp</dimen>
+    <dimen name="iv_irregular_text_size_main">26sp</dimen>
+    <dimen name="iv_irregular_text_size_sub">16sp</dimen>
+    <dimen name="iv_irregular_image_padding">12dp</dimen>
+
+    <!-- Detailed irregular verb -->
+    <dimen name="iv_details_text_size_header">35sp</dimen>
+    <dimen name="iv_details_text_size_main">20sp</dimen>
+    <dimen name="iv_details_text_size_sub">12sp</dimen>
+    <dimen name="iv_details_text_size_padding">12dp</dimen>
+    <dimen name="iv_details_layout_margin">30dp</dimen>
+    <dimen name="iv_details_layout_margin_image">25dp</dimen>
+    <dimen name="iv_details_layout_margin_table">50dp</dimen>
+
+</resources>
